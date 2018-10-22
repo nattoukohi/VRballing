@@ -8,7 +8,7 @@ public class CreatePins : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        CreateThePins();
+        
 	}
 	
 	// Update is called once per frame
