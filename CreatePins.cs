@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CreatePins : MonoBehaviour {
-    public GameObject [] Object = new GameObject [10];
+    private static int numpin = 10;
+    public GameObject [] Object = new GameObject [numpin];
 
     // Use this for initialization
     void Start () {
