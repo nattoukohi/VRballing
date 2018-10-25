@@ -22,10 +22,7 @@ namespace balling
         {
             check = GameObject.FindGameObjectWithTag("Ball");
 
-            if (this.transform.position.x > 10)
-            {
-
-            }
+  
 
             //if turn is started, no need to check it for a while
             if(check != null&&turnstarted == false)
