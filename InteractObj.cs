@@ -83,8 +83,8 @@ public class InteractObj : MonoBehaviour
             GetComponent<FixedJoint>().connectedBody = null;
             Destroy(GetComponent<FixedJoint>());
 
-            objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity*10;
-            objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
+            objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity*3;
+            objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity*100;
         }
 
         objectInHand = null;
