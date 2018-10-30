@@ -30,7 +30,7 @@ public class Create : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip)){
-            GameObject obj = Instantiate(Object, Objecttrans.transform.position, Objecttrans.rotation) as GameObject;
+            GameObject obj = Instantiate(Object, Objecttrans.transform.position, Object.transform.rotation) as GameObject;
         }	
 	}
 }
